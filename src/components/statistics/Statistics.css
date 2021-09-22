@@ -1,0 +1,53 @@
+.statistics-container {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.statistics-title {
+  font-size: 35px;
+}
+
+.statistics-grid {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.statistics-footer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin: 20px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+button:hover {
+  background: #bf1650;
+}
+
+button:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+button:disabled {
+  opacity: 0.4;
+}
+
+button:hover {
+  transition: 0.3s all;
+}
+
+button {
+  -webkit-appearance: none;
+}

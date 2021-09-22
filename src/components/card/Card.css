@@ -1,0 +1,16 @@
+.card {
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-value {
+  font-size: 25px;
+}
