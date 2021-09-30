@@ -1,15 +1,13 @@
 .statistics-container {
   margin-top: 20px;
-  background-color: white;
-}
-
-.statistics-title {
-  font-size: 35px;
+  color: white;
 }
 
 .statistics-grid {
   display: grid;
   justify-content: space-evenly;
+  row-gap: 15px;
+  column-gap: 30%;
 }
 
 .statistics-footer {
@@ -17,7 +15,7 @@
   justify-content: center;
 }
 
-button {
+.back-button {
   background: #ec5990;
   color: white;
   text-transform: uppercase;

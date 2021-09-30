@@ -9,7 +9,6 @@ import DynamicCard from '../dynamic-card/DynamicCard';
 const Statistics = ({ formData, setShowStatistics }: Props): JSX.Element => {
   return (
     <div className="statistics-container">
-      <div className="statistics-title">STATISTICS</div>
       <div className="statistics-grid">
         {hydrateValues(computeStatistics(formData), formData).map(card =>
           card._tag === 'dynamic' ? (
@@ -20,7 +19,12 @@ const Statistics = ({ formData, setShowStatistics }: Props): JSX.Element => {
         )}
       </div>
       <div className="statistics-footer">
-        <button onClick={() => setShowStatistics(false)}>Go Back</button>
+        <button
+          className="back-button"
+          onClick={() => setShowStatistics(false)}
+        >
+          Go Back
+        </button>
       </div>
     </div>
   );
